@@ -1,0 +1,17 @@
+[project]
+name = "recallbase-lc-rag"
+version = "0.1.0"
+description = "RAG assistant built with LangChain (2-step RAG). Same app, documents and questions as recallbase-rag."
+readme = "README.md"
+authors = [
+    { name = "sivahere4cloud", email = "sivaganeshcloud@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+recallbase-lc-rag = "recallbase_lc_rag:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
